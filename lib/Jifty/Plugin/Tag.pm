@@ -6,6 +6,8 @@ use warnings;
 package Jifty::Plugin::Tag;
 use base qw/Jifty::Plugin/;
 
+our $VERSION = '0.01';
+
 =head1 NAME
 
 Jifty::Plugin::Tag - simple implementation of Tag model for Jifty apps
