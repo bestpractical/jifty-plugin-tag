@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 use warnings;
 use strict;
-use Jifty::Test::Dist tests => 12;
+use Jifty::Test::Dist tests => 67;
 
 sub flush_nodes {
     my $nodes = Jifty->app_class('Model', 'NodeCollection')->new;
